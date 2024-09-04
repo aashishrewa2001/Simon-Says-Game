@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    scroll-margin: 0;
+}
+.main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about{
+    width:42%;
+    border-right: 2px solid white;
+    padding-right: 40px;
+    padding-left: 20px;
+    text-align: left;
+}
+img{
+    width: 530px;
+    height: 180x;
+    background: none;
+    background-color: transparent;
+}
+.about h2{
+    margin:4px;
+}
+.about h3{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.btn{
+    height: 130px;
+    width: 130px;
+    border-radius: 20px;
+    border: 10px solid black;
+    margin: 2.5rem;
+        }
+
+.btn-container{
+    margin-left: auto;
+    margin-right: auto;
+     display: flex;
+     justify-content: center; 
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: purple;
+}
